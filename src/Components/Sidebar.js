@@ -45,7 +45,7 @@ function Sidebar() {
         <Link to="/add-cars">
           <a
             className="nav-link collapsed"
-            href="#"
+            href="/"
             data-toggle="collapse"
             data-target="#collapseTwo"
             aria-expanded="true"
@@ -62,7 +62,7 @@ function Sidebar() {
         <Link to="/all-cars">
           <a
             className="nav-link collapsed"
-            href="#"
+            href="/"
             data-toggle="collapse"
             data-target="#collapseUtilities"
             aria-expanded="true"
