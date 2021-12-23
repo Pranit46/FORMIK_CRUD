@@ -139,8 +139,6 @@ function AddDamageCars() {
             id="carDesc"
             name="carDesc"
             className="form-control"
-            id="exampleInputEmail1"
-            // onChange={(e) => {setDesc(e.target.value)}}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             placeholder="Enter damage description"
