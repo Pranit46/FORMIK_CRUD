@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import * as Yup from "yup";
@@ -10,11 +10,11 @@ function AddDamageCars() {
 //   let context = useContext(carContext);
   let navigate = useNavigate();
   // console.log(context);
-  let [name, setName] = useState("");
-  let [email, setEmail] = useState("");
-  let [number, setNumber] = useState("");
-  let [model, setModel] = useState("");
-  let [desc, setDesc] = useState("");
+  // let [name, setName] = useState("");
+  // let [email, setEmail] = useState("");
+  // let [number, setNumber] = useState("");
+  // let [model, setModel] = useState("");
+  // let [desc, setDesc] = useState("");
 
   const formik = useFormik({
     initialValues: {
