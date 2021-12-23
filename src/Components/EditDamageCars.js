@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useFormik } from "formik";
 import * as Yup from "yup";
@@ -10,7 +10,7 @@ function EditDamageCars() {
       console.log(params.id);
       getData();
     }
-  }, []);
+  });
 
   let navigate = useNavigate();
   const params = useParams();
